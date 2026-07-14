@@ -1,0 +1,23 @@
+main {
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: inherit;
+    position: relative;
+}
+
+tui-icon.material {
+    --tui-font-icon: 'Material Symbols Outlined';
+    font-family: 'Material Symbols Outlined';
+}
+
+tui-icon.awesome {
+    --tui-font-icon: 'Font Awesome 6 Free';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+}
+
+
